@@ -19,7 +19,7 @@ https://youtu.be/bVeboJwTPIU
 So, you can easily make this home automation project at home just by using an ESP32 and relay module. Or you can also use a custom-designed PCB for this project.
 
 ## Required components for the ESP32 Project
-###Required components (Without PCB):
+### Required components (Without PCB):
 
 1. ESP32 DevKIT V1
 2. 8-channel 5V SPDT Relay Module
@@ -155,6 +155,7 @@ Save all the HEX codes in a text file.
 
 ## Program the ESP32 for This IoT Project
 Please download the code for this IoT project.
+
 GitHub link to Download Source code:
 https://github.com/techstudycell/ESP32-Alexa-Home-Automation-with-Fan-Dimmer/tree/main/Code/Code_ESP32_ESPAlexa_BT_IR_1Fan4Relay
 
@@ -178,7 +179,18 @@ String Device_3_Name = "Studio Light";
 String Device_4_Name = "Toilet Light";
 String Device_5_Name = "Fan";
 
-### Update the HEX codes for IR Remote Buttons 0x<HEX CODE>
+### Update the HEX codes for IR Remote Buttons
+
+ /Update the HEX code of IR Remote buttons 0x<HEX CODE>
+#define IR_Button_1  0x1FEE01F
+#define IR_Button_2  0x1FE10EF
+#define IR_Button_3  0x1FE906F
+#define IR_Button_4  0x1FE50AF
+#define IR_Button_5  0x1FED827
+#define IR_Fan_Up   0x1FE609F
+#define IR_Fan_Down  0x1FEA05F
+#define IR_All_On   0x1FE807F
+#define IR_All_Off  0x1FE48B7
 
 After that select the DOIT ESP32 DEVKIT V1 board and the PORT. Then click on the upload button.
 
