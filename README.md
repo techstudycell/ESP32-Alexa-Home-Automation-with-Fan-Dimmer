@@ -112,7 +112,7 @@ For this project, I have the JLC SMT Service while ordering the PCB.
 On JLCPCB's one-stop online platform, customers enjoy low-cost & high-quality & fast SMT service at an $8.00 setup fee($0.0017 per joint).
 
 $27 New User coupon & $24 SMT coupons every month.
-Visit https://jlcpcb.com
+Visit https://jlcpcb.com/RAB
 
 JLCPCB SMT Parts Library 200k+ in-stock components (689 Basic components and 200k+ Extended components)
 
@@ -148,7 +148,7 @@ Then follow the following steps to get the HEX codes
 
 1. Install the IRremote library in Arduino IDE
 2. Download the attached code, and upload it to ESP32.
-3.Open Serial Monitor with Baud rate 9600.
+3. Open Serial Monitor with Baud rate 9600.
 4. Now, press the IR remote button.
 5. The respective HEX code will populate in the serial monitor.
 Save all the HEX codes in a text file.
